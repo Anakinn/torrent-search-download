@@ -1,4 +1,4 @@
-package torrent.tracker;
+package torrent.search;
 
 import java.io.IOException;
 
