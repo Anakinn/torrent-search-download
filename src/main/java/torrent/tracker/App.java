@@ -14,7 +14,6 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.X509TrustManager;
-
 import uriSchemeHandler.CouldNotOpenUriSchemeHandler;
 import uriSchemeHandler.URISchemeHandler;
 
@@ -58,12 +57,12 @@ public class App {
 		EzTorrent tor = new EzTorrent();
 		ThePirateBay tor2 = new ThePirateBay();
 		Torrent1337x tor3 = new Torrent1337x();
-		String serach = "Ubuntu";
+		String search = "Ubuntu";
 		
 
 			// downloadMagnet(tor.downloadtMagnetLink(serach));
-			downloadMagnet(tor2.downloadtMagnetLink(serach));
-			downloadMagnet(tor3.downloadtMagnetLink(serach));
+			downloadMagnet(tor2.downloadtMagnetLink(search));
+			downloadMagnet(tor3.downloadtMagnetLink(search));
 		
 	}
 
