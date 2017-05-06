@@ -12,6 +12,6 @@ https://github.com/beothorn/URISchemeHandler
 
 See example.
 
-This is written in education purposes because I was curios can I write it.
+This was written in education purposes because I was curios can I write it.
 
 If you can use it feel free.
